@@ -31,6 +31,5 @@ function removeLastDriver(){
 };
 
 function removeFirstDriver(){
-  const removeMilo = drivers.slice(1);
-  return removeMilo;
+  return drivers.slice(1);
 };
