@@ -19,7 +19,7 @@ function destructivelyRemoveFirstDriver(){
 };
 
 function appendDriver(){
-  return[...drivers, 'Broom'];
+  return [...drivers, 'Broom'];
 };
 
 function prependDriver(){
@@ -27,8 +27,7 @@ function prependDriver(){
 };
 
 function removeLastDriver(){
-  const removeGarfield = drivers.slice(0, drivers.length- 1);
-  return removeGarfield;
+  return drivers.slice(0, drivers.length- 1);
 };
 
 function removeFirstDriver(){
