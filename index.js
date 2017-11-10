@@ -20,7 +20,6 @@ function destructivelyRemoveFirstDriver(){
 
 function appendDriver(){
   const appendBroom = [...drivers, 'Broom'];
-  return appendBroom;
 };
 
 function prependDriver(){
