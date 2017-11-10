@@ -19,7 +19,7 @@ function destructivelyRemoveFirstDriver(){
 };
 
 function appendDriver(){
-  const appendBroom = [...drivers, 'Broom'];
+  return[...drivers, 'Broom'];
 };
 
 function prependDriver(){
