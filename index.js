@@ -24,8 +24,7 @@ function appendDriver(){
 };
 
 function prependDriver(){
-  const prependArnold = ['Arnold', ...drivers];
-  return prependArnold;
+  return ['Arnold', ...drivers];
 };
 
 function removeLastDriver(){
